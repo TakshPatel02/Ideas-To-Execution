@@ -7,18 +7,19 @@
     --accent: #cfae70;
 }
 
-body {
-    background-color: var(--bg-main);
-    color: var(--text-main);
-    overflow: scroll;
-}
-
 html {
     scrollbar-width: none;
+    /* Firefox */
 }
 
 html::-webkit-scrollbar {
     display: none;
+    /* Chrome, Safari, Edge */
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
 }
 
 .floating-word {

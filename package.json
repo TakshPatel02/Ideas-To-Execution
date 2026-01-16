@@ -1,8 +1,18 @@
 {
-  "name": "gsap-story-telling-project",
+  "name": "ideas-to-execution",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "An immersive scroll-based storytelling experience exploring the journey from ideas to execution, built with React, GSAP, and Tailwind CSS",
+  "keywords": [
+    "react",
+    "gsap",
+    "scrolltrigger",
+    "animation",
+    "storytelling",
+    "interactive",
+    "tailwindcss"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
