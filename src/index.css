@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Inter', system-ui, sans-serif;
+}
+
 :root {
     --bg-main: #0b0b0d;
     --text-main: #e5e5e5;
@@ -20,6 +25,14 @@ html::-webkit-scrollbar {
 body {
     background-color: var(--bg-main);
     color: var(--text-main);
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
 }
 
 .floating-word {
@@ -27,6 +40,7 @@ body {
     font-size: 3.5rem;
     font-weight: 500;
     color: #6b7280;
+    font-family: 'Inter', system-ui, sans-serif;
 }
 
 .process-item {
@@ -35,6 +49,7 @@ body {
     color: #e5e5e5;
     border-left: 4px solid var(--accent);
     padding-left: 1rem;
+    font-family: 'Inter', system-ui, sans-serif;
 }
 
 .tension-line {
@@ -42,4 +57,6 @@ body {
     font-weight: 500;
     color: #9ca3af;
     line-height: 1.2;
+    font-family: 'Inter', system-ui, sans-serif;
+    letter-spacing: -0.01em;
 }
