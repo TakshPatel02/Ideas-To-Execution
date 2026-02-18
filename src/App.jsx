@@ -121,28 +121,28 @@ const App = () => {
   return (
     <main className="bg-(--bg-main) text-(--text-main)">
       {/* HERO */}
-      <section className="min-h-screen flex items-center justify-center px-6">
+      <section className="min-h-screen flex items-center justify-center px-4 sm:px-6">
         <div className="max-w-3xl text-center">
-          <h1 className="hero-title text-6xl md:text-8xl font-bold tracking-tight">
+          <h1 className="hero-title text-4xl sm:text-5xl md:text-8xl font-bold tracking-tight">
             Every product starts as an idea.
           </h1>
-          <p className="hero-sub mt-6 text-xl md:text-2xl text-neutral-400 tracking-wide font-light">
+          <p className="hero-sub mt-4 sm:mt-6 text-base sm:text-lg md:text-2xl text-neutral-400 tracking-wide font-light">
             And survives only through execution.
           </p>
         </div>
       </section>
 
       {/* CONTRAST */}
-      <section id="contrast" className="py-40 px-6 ">
+      <section id="contrast" className="py-20 sm:py-40 px-4 sm:px-6 ">
         <div className="max-w-3xl mx-auto ">
-          <h2 className="section-title text-5xl md:text-7xl font-semibold text-neutral-300">
+          <h2 className="section-title text-3xl sm:text-5xl md:text-7xl font-semibold text-neutral-300">
             Ideas are easy.
           </h2>
-          <h2 className="section-title text-5xl md:text-7xl font-semibold text-neutral-500 mt-2">
+          <h2 className="section-title text-3xl sm:text-5xl md:text-7xl font-semibold text-neutral-500 mt-2">
             Execution is hard.
           </h2>
 
-          <p className="section-title mt-16 text-xl md:text-2xl text-neutral-400 leading-relaxed font-light tracking-wide">
+          <p className="section-title mt-8 sm:mt-16 text-base sm:text-lg md:text-2xl text-neutral-400 leading-relaxed font-light tracking-wide">
             Most ideas fail not because they are bad,
             <br />
             <span className="section-title">
@@ -153,7 +153,7 @@ const App = () => {
       </section>
 
       {/* TENSION */}
-      <section className="py-32 px-6">
+      <section className="py-16 sm:py-32 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
           <p className="tension-line opacity-40">Confusion</p>
           <p className="tension-line opacity-60">Overthinking</p>
@@ -165,21 +165,21 @@ const App = () => {
       {/* TRANSITION */}
       <section
         id="clarity"
-        className="min-h-screen flex items-center justify-center px-6"
+        className="min-h-screen flex items-center justify-center px-4 sm:px-6"
       >
         <div className="max-w-3xl text-center">
-          <h2 className="clarity-line-1 text-5xl md:text-7xl font-semibold text-neutral-300">
+          <h2 className="clarity-line-1 text-3xl sm:text-5xl md:text-7xl font-semibold text-neutral-300">
             Then clarity begins to form.
           </h2>
-          <h2 className="clarity-line-2 mt-4 text-5xl md:text-7xl font-bold italic text-[var(--accent)]">
+          <h2 className="clarity-line-2 mt-3 sm:mt-4 text-3xl sm:text-5xl md:text-7xl font-bold italic text-[var(--accent)]">
             One direction changes everything.
           </h2>
         </div>
       </section>
 
       {/* FRAMEWORK */}
-      <section className="py-40 px-6">
-        <div className="max-w-3xl mx-auto space-y-6">
+      <section className="py-20 sm:py-40 px-4 sm:px-6">
+        <div className="max-w-3xl mx-auto space-y-4 sm:space-y-6">
           <p className="process-item">Think — Understand the problem deeply.</p>
           <p className="process-item">
             Build — Turn ideas into something real.
@@ -190,21 +190,21 @@ const App = () => {
       </section>
 
       {/* PHILOSOPHY */}
-      <section className="philosophy py-32 px-6 text-center">
+      <section className="philosophy py-16 sm:py-32 px-4 sm:px-6 text-center">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-5xl md:text-7xl font-semibold text-neutral-300">
+          <h2 className="text-3xl sm:text-5xl md:text-7xl font-semibold text-neutral-300">
             Interaction is not decoration.
           </h2>
-          <p className="mt-4 text-xl md:text-2xl text-neutral-400 font-light tracking-wide">It's communication.</p>
+          <p className="mt-3 sm:mt-4 text-base sm:text-xl md:text-2xl text-neutral-400 font-light tracking-wide">It's communication.</p>
         </div>
       </section>
 
       {/* CLOSURE */}
-      <section className="closing min-h-screen flex flex-col items-center justify-center px-6 text-center">
-        <h2 className="closing-title text-5xl md:text-7xl font-bold text-neutral-300">
+      <section className="closing min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 text-center">
+        <h2 className="closing-title text-3xl sm:text-5xl md:text-7xl font-bold text-neutral-300">
           This is how experiences are built.
         </h2>
-        <p className="closing-text mt-6 text-xl md:text-2xl text-neutral-400 max-w-2xl font-light tracking-wide">
+        <p className="closing-text mt-4 sm:mt-6 text-base sm:text-lg md:text-2xl text-neutral-400 max-w-2xl font-light tracking-wide">
           Designed with intention. Animated with purpose.
         </p>
       </section>
